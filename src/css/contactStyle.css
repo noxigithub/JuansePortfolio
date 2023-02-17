@@ -1,0 +1,79 @@
+.ContactMe{
+    height: 100vh;
+    background-color:black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 5px;
+   flex-direction: column;
+}
+
+
+.contactForm-container{
+    width: 70%;
+    height: 80%;
+    background-color: rgb(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contactForm-container  input{
+    width: 80%;
+    height: 40px;
+}
+
+.contactForm-container  textarea{
+    width: 80%;
+
+}
+
+.contactForm-container button{
+    height: 60px;
+    width: 120px;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+
+
+    
+}
+
+.contactForm-container button:hover{
+  
+    background: linear-gradient(120deg, #14ffe9, #ffeb3b, #ff00e0);
+    animation: rotate 1.5s ease-in-out infinite;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    font-size: 15px;
+
+
+    
+}
+
+
+
+
+
+@keyframes rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+
+}
+
+.footer{
+    text-align: center;
+    color: white;
+}
+
+.footer p:first-child + p{
+    font-size: 12px;
+
+}

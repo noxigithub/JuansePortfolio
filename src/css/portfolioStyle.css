@@ -1,0 +1,23 @@
+.portfolioContainer {
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  margin-top: 5px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.portfolioContainer h2 {
+  width: 100%;
+  color:  #ffeb3b;
+}
+
+
+@media screen and (max-width:600px) {
+  .portfolioContainer {
+    height: auto;
+  }
+}

@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import About from './components/about';
+import Contact from './components/contact';
+import Header from './components/header.js';
+import Portfolio from './components/portfolio'; import { SkillContext } from './helpers/context';
 
 function App() {
+
+
+  const [skills, setSkills] = useState([]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <SkillContext.Provider value={{skills,setSkills}}>
+      <div className="App">
+        <Header />
+        <About />
+        <Portfolio />
+        <Contact />
+      </div>
+    </SkillContext.Provider>
   );
 }
 
