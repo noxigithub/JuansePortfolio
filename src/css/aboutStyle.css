@@ -1,6 +1,6 @@
 .aboutMe {
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     background-color: black;
     color: white;
     text-align: center;
@@ -10,37 +10,59 @@
     padding-bottom: 20px;
 }
 
-.aboutMe h2 {
+.aboutMe-title-container {
     width: 100%;
-    background: linear-gradient(to right, #14ffe9, #ffeb3b, #ff00e0);
-    background-clip: text;
+    background: linear-gradient(to right, #14ffe9, #2196b9, #ff00e0);
+ background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.aboutMe h2 {
+   width: 100%;
+
 }
 
 .animatedText {
-    animation: rotate 1.5s linear infinite;
+    animation: pulse-animation 2s infinite;
+
 
 }
 
 @keyframes rotate {
     0% {
+
         filter: hue-rotate(0deg);
+
     }
 
     100% {
+
         filter: hue-rotate(360deg);
+
     }
 
 }
 
-.show{
+@keyframes pulse-animation {
+    0% {
+       text-shadow: rgb(206, 203, 203) 1px 0 10px;
+
+    }
+
+    100% {
+       text-shadow: rgb(247, 93, 188) 1px 0 10px;
+    }
+}
+
+.show {
     opacity: 1;
 }
 
-.hide{
-    opacity:0;
+.hide {
+    opacity: 0;
 }
 
 .aboutMe p {
@@ -51,8 +73,8 @@
 }
 
 
-.skillsContainer{
- display: flex;
+.skillsContainer {
+    display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
@@ -60,9 +82,10 @@
     transition: 1s cubic-bezier(0, 1.47, 0.58, 1);
 }
 
-.skillsContainer h2{
+.skillsContainer h2 {
     margin-bottom: 60px;
 }
+
 .skillWrapper {
     display: flex;
     width: 105px;
@@ -74,7 +97,7 @@
 }
 
 
-.skillWrapper >* {
+.skillWrapper>* {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -87,7 +110,7 @@
     cursor: pointer;
 }
 
-.skillWrapper > *:hover img {
+.skillWrapper>*:hover img {
     max-width: 80%;
 }
 
@@ -98,41 +121,41 @@
     transition: 0.2s cubic-bezier(0, 1.47, 0.58, 1);
 }
 
-.skillsContainer >* img[alt="Flutter"]{
+.skillsContainer>* img[alt="Flutter"] {
     max-width: 50%;
     transition: 0.2s cubic-bezier(0, 1.47, 0.58, 1);
 }
 
-.skillsContainer >* img[alt='Flutter']:hover{
+.skillsContainer>* img[alt='Flutter']:hover {
     max-width: 55%;
 }
 
 
-.skillsContainer >* img[alt='JavaScript']{
+.skillsContainer>* img[alt='JavaScript'] {
     transition: 0.2s cubic-bezier(0, 1.47, 0.58, 1);
     max-width: 135%;
 }
 
-.skillsContainer >* img[alt='JavaScript']:hover{
+.skillsContainer>* img[alt='JavaScript']:hover {
     max-width: 160%;
 }
 
 
 
-@media screen and (max-width:600px){
+@media screen and (max-width:600px) {
 
 
     .skillWrapper {
-       
-        width:85px;
+
+        width: 85px;
         height: 85px;
     }
 
 
-    .skillWrapper >* {
+    .skillWrapper>* {
         width: 80px;
         height: 80px;
-    
+
     }
 
 

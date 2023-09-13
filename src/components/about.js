@@ -51,7 +51,10 @@ function About() {
     return (
         
         <div id="section-aboutMe" className='aboutMe'>
-            <h2 className={!isClicked ? 'animatedText' : ''} onClick={clickHandler}>¿ Quién es Juan Sebastian ?</h2>
+            <div className="aboutMe-title-container">
+                  <h2 className={!isClicked ? 'animatedText' : ''} onClick={clickHandler}>¿ Quién es Juan Sebastian ?</h2>
+            </div>
+          
 
             <p className={!isClicked ? 'skillsContainer hide' : ' skillsContainer show'}>Es una persona que nunca se rinde y se esfuerza por alcanzar sus metas. </p>
 

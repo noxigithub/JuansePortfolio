@@ -32,7 +32,7 @@ function Header() {
     return (
         <nav className='mainNav'>
 
-            <p className='mainLogo'>JSG</p>
+            <p className='mainLogo'>JSG - website in development</p>
             <ul>
                 <li><AnchorLink href='#section-aboutMe'>About Me</AnchorLink></li>
                 <li><AnchorLink href='#section-portfolio'>Portfolio</AnchorLink></li>

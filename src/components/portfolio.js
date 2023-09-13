@@ -34,7 +34,7 @@ function Portfolio() {
                 title='Casa Hotel el Compadre'
                 description='Proband los props 2'
                 link='https://www.casahotelelcompadre.co/'
-                stats={['HTML', 'JavaScript', 'CSS']}
+                stats={['HTML', 'JavaScript', 'CSS','PHP']}
             />
 
             <Website
@@ -42,7 +42,7 @@ function Portfolio() {
                 title='2Love1'
                 description='Proband los props 3'
                 link='https://2love1.org/'
-                stats={['HTML', 'JavaScript', 'CSS']}
+                stats={['WordPress', 'JavaScript']}
             />
 
             <Website
@@ -60,7 +60,7 @@ function Portfolio() {
                 title='Nookstore'
                 description='Proband los props 3'
                 link='http://flowery-summer.surge.sh/'
-                stats={['HTML', 'JavaScript', 'CSS']}
+                stats={['HTML', 'JavaScript', 'CSS', 'Bootstrap']}
             />
 
 
