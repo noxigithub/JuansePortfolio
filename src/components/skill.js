@@ -10,8 +10,6 @@ function Skill(props) {
         <div className='skillWrapper' onClick={ props.onClick }>
             <div className='skillContainer'>
                 <img src={props.img} alt={props.skillName} />
-
-
             </div>
 
         </div>

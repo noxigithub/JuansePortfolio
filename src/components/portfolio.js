@@ -13,10 +13,6 @@ import { SkillContext } from '../helpers/context';
 
 function Portfolio() {
 
-
-   
-   
-
     return (
         <div id="section-portfolio" className='portfolioContainer'>
 
@@ -32,23 +28,23 @@ function Portfolio() {
             <Website
                 image={casaHotel}
                 title='Casa Hotel el Compadre'
-                description='Proband los props 2'
+                description='Hotel ubicado en filandia Quindio colombia'
                 link='https://www.casahotelelcompadre.co/'
-                stats={['HTML', 'JavaScript', 'CSS','PHP']}
+                stats={['HTML', 'JavaScript', 'CSS','PHP', 'Bootstrap']}
             />
 
             <Website
                 image={love}
                 title='2Love1'
-                description='Proband los props 3'
+                description='servicios enfocados en al salud mental'
                 link='https://2love1.org/'
-                stats={['WordPress', 'JavaScript']}
+                stats={['WordPress', 'JavaScript','PHP','CSS']}
             />
 
             <Website
                 image={coffeShop}
                 title='A Coffe Shop'
-                description='Proband los props 3'
+                description='Pagína modelo para pequeña cafetería local'
                 link='http://horrible-pocket.surge.sh/'
                 stats={['HTML', 'JavaScript', 'CSS']}
             />
@@ -58,9 +54,17 @@ function Portfolio() {
             <Website
                 image={nookstore}
                 title='Nookstore'
-                description='Proband los props 3'
+                description='Pagina modelo para una tienda de libros'
                 link='http://flowery-summer.surge.sh/'
                 stats={['HTML', 'JavaScript', 'CSS', 'Bootstrap']}
+            />
+
+            <Website
+                image={nookstore}
+                title='Practidocumentos'
+                description='Pagina de servicios y venta de documentos legales'
+                link='https://practidocumentos.com'
+                stats={['HTML','REACT','PHP','CSS','Bootstrap']}
             />
 
 

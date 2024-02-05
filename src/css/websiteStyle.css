@@ -6,6 +6,8 @@
     perspective: 1px;
     margin-top: 30px;
     overflow: hidden;
+      text-decoration: none !important;
+      padding: 10px;
   /*  flex: 0 0 33.3333%;*/
 
 }
@@ -117,21 +119,9 @@ animation: opacityChange 5s infinite linear;
     width: 100%;
     padding: 0;
     font-weight: bold;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 1px #14ffe9;
+  
 
-}
-
-.skillsUl li:nth-child(2n + 1){
-    color: #14ffe9;
-
-}
-
-.skillsUl li:nth-child(2n + 2){
-   color: #ffeb3b;
-}
-
-.skillsUl li:nth-child(2n + 3){
-   color: #ff00e0;
 }
 
 

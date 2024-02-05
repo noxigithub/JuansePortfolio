@@ -13,12 +13,15 @@ import nodeLogo from '../images/node.png';
 import phpLogo from '../images/php.png';
 
 import { SkillContext } from '../helpers/context';
+import Skill_experience from './skill_experience.js';
 
 function About() {
 
     const {skills, setSkills} = useContext(SkillContext)
 
     const [isClicked, setIsClicked] = useState(false);
+
+    const [skillExperience, setSkillExperience] = useState(false);
 
     const clickHandler = () => {
         setIsClicked(!isClicked);
@@ -27,6 +30,7 @@ function About() {
     const [skillsClicked, setSkillsClicked] = useState([]);
 
     const skillClicked = (e) => {
+        setSkillExperience(true);
 
         let skillName = "";
         
@@ -43,14 +47,14 @@ function About() {
             setSkills(skills => [...skills, skillName]);
         }   
 
-       
-
     }
 
 
     return (
         
         <div id="section-aboutMe" className='aboutMe'>
+            
+            { skillExperience ? <Skill_experience/>:''}
             <div className="aboutMe-title-container">
                   <h2 className={!isClicked ? 'animatedText' : ''} onClick={clickHandler}>¿ Quién es Juan Sebastian ?</h2>
             </div>
