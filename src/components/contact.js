@@ -7,7 +7,9 @@ function Contact() {
 
     return (
         <div id="section-contactMe" className='ContactMe'>
+             <h2>Contáctame</h2>
             <div className='contactForm-container'>
+                
 
                 <input type="email" placeholder='E-mail'/>
 

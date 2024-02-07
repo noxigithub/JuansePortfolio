@@ -8,6 +8,12 @@
    flex-direction: column;
 }
 
+.ContactMe h2{
+
+    font-size: 2.5rem;
+    color: #ffeb3b !important
+}
+
 
 .contactForm-container{
     width: 70%;

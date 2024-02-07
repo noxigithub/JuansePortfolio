@@ -13,7 +13,7 @@
 .aboutMe-title-container {
     width: 100%;
     background: linear-gradient(to right, #14ffe9, #2196b9, #ff00e0);
- background-clip: text;
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
@@ -21,7 +21,7 @@
 }
 
 .aboutMe h2 {
-   width: 100%;
+    width: 100%;
 
 }
 
@@ -48,12 +48,12 @@
 
 @keyframes pulse-animation {
     0% {
-       text-shadow: rgb(206, 203, 203) 1px 0 10px;
+        text-shadow: rgb(206, 203, 203) 1px 0 10px;
 
     }
 
     100% {
-       text-shadow: rgb(247, 93, 188) 1px 0 10px;
+        text-shadow: rgb(247, 93, 188) 1px 0 10px;
     }
 }
 
@@ -84,6 +84,8 @@
 
 .skillsContainer h2 {
     margin-bottom: 60px;
+    font-size: 2rem;
+    color: #ffeb3b;
 }
 
 .skillWrapper {

@@ -6,6 +6,7 @@ import casaHotel from '../images/casahotel.png';
 import love from '../images/2love1.png';
 import coffeShop from '../images/coffeShop.png';
 import nookstore from '../images/booksStore.png';
+import practidocs from '../images/practidocs.png'
 
 import { SkillContext } from '../helpers/context';
 
@@ -60,7 +61,7 @@ function Portfolio() {
             />
 
             <Website
-                image={nookstore}
+                image={practidocs}
                 title='Practidocumentos'
                 description='Pagina de servicios y venta de documentos legales'
                 link='https://practidocumentos.com'

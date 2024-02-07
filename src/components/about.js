@@ -60,7 +60,7 @@ function About() {
             </div>
           
 
-            <p className={!isClicked ? 'skillsContainer hide' : ' skillsContainer show'}>Es una persona que nunca se rinde y se esfuerza por alcanzar sus metas. </p>
+            <p className={!isClicked ? 'skillsContainer hide' : ' skillsContainer show'}>Tecnólogo en análisis y desarrollo de sistemas de información con conocimientos en desarrollo de software enfocado tanto al full stack como al mobile development. Futuro ingeniero de sistemas con énfasis en seguridad informática. </p>
 
 
             <div className={!isClicked ? 'skillsContainer hide' : ' skillsContainer show'}>
