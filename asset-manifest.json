@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JuansePortfolio/static/css/main.cde57159.css",
-    "main.js": "/JuansePortfolio/static/js/main.c1d21642.js",
+    "main.css": "/JuansePortfolio/static/css/main.235ec21d.css",
+    "main.js": "/JuansePortfolio/static/js/main.3f3b1375.js",
     "static/media/booksStore.png": "/JuansePortfolio/static/media/booksStore.87710f3cf149811abccd.png",
     "static/media/casahotel.png": "/JuansePortfolio/static/media/casahotel.b1a75ce7421af8a849d9.png",
     "static/media/coffeShop.png": "/JuansePortfolio/static/media/coffeShop.a1a27c56bb40d76e8693.png",
@@ -11,11 +11,11 @@
     "static/media/flutter.png": "/JuansePortfolio/static/media/flutter.294a953425109a8f1aad.png",
     "static/media/javascript.png": "/JuansePortfolio/static/media/javascript.7f8751632b42a9932c15.png",
     "index.html": "/JuansePortfolio/index.html",
-    "main.cde57159.css.map": "/JuansePortfolio/static/css/main.cde57159.css.map",
-    "main.c1d21642.js.map": "/JuansePortfolio/static/js/main.c1d21642.js.map"
+    "main.235ec21d.css.map": "/JuansePortfolio/static/css/main.235ec21d.css.map",
+    "main.3f3b1375.js.map": "/JuansePortfolio/static/js/main.3f3b1375.js.map"
   },
   "entrypoints": [
-    "static/css/main.cde57159.css",
-    "static/js/main.c1d21642.js"
+    "static/css/main.235ec21d.css",
+    "static/js/main.3f3b1375.js"
   ]
 }
