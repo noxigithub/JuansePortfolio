@@ -138,6 +138,11 @@
 @media screen and (max-width:600px) {
 
 
+    .skillsSection{
+        width: 80%;
+        height:300px;
+    }
+
     .skillWrapper {
 
         width: 85px;

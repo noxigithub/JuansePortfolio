@@ -12,6 +12,10 @@ import javscriptLogo from '../images/javascript.png';
 import mysqlLogo from '../images/mysql.png';
 import nodeLogo from '../images/node.png';
 import phpLogo from '../images/php.png';
+import firebaseLogo from '../images/firebase.png';
+import dartLogo from '../images/dart.png';
+import larvelLogo from '../images/laravel.png';
+import nextjsLogo from '../images/nextjs.png';
 
 function Skills() {
     const { skills, setSkills } = useContext(SkillContext)
@@ -103,6 +107,11 @@ function Skills() {
                         skillName="PHP"
                         img={phpLogo}
                     />
+                     <Skill
+                        onClick={skillClicked}
+                        skillName="Firebase"
+                        img={firebaseLogo}
+                    />
                 </div>
             </div>
 
@@ -121,8 +130,8 @@ function Skills() {
 
                     <Skill
                         onClick={skillClicked}
-                        skillName="GIT"
-                        img={gitLogo}
+                        skillName="Dart"
+                        img={dartLogo}
                     />
                 </div>
             </div>
@@ -130,14 +139,6 @@ function Skills() {
             <div className='skillsSection front-end'>
                 <h3>Herramientas</h3>
                 <div className='skills-div'>
-
-
-                    <Skill
-                        onClick={skillClicked}
-                        skillName="Flutter"
-                        img={flutterLogo}
-                    />
-
                     <Skill
                         onClick={skillClicked}
                         skillName="GIT"
@@ -148,6 +149,17 @@ function Skills() {
             <div className='skillsSection front-end'>
                 <h3>Aprendiendo</h3>
                 <div className='skills-div'>
+                      <Skill
+                        onClick={skillClicked}
+                        skillName="Nextjs"
+                        img={nextjsLogo}
+                    />
+
+                     <Skill
+                        onClick={skillClicked}
+                        skillName="Laravel"
+                        img={larvelLogo}
+                    />
 
                 </div>
             </div>
