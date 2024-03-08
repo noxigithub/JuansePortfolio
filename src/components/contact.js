@@ -18,12 +18,12 @@ function Contact() {
                   
                 </textarea>
 
-                <button>Contactar</button>
+                <button><a href=''>Contactar</a></button>
 
             </div>
 
             <div className='footer'>
-                <p>Todos los &copy;  derechos reservados  2023</p>
+                <p>Todos los &copy;  derechos reservados  2024</p>
                 <p>Juan Sebastian Gomez Duran</p>
             </div>
 

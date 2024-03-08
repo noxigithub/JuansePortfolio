@@ -10,19 +10,28 @@
     padding-bottom: 20px;
 }
 
-.aboutMe-title-container {
+.aboutMe-title-container h2 {
     width: 100%;
     background: linear-gradient(to right, #14ffe9, #2196b9, #ff00e0);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
-    font-size: 1.5rem;
+    font-size: 2.3rem;
+}
+
+
+.aboutMe-title-container h3 {
+     font-size: 1.5rem;
 }
 
 .aboutMe h2 {
     width: 100%;
 
+}
+
+.yellowText{
+     color: #ffeb3b !important;
 }
 
 .animatedText {
@@ -73,92 +82,3 @@
 }
 
 
-.skillsContainer {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 40px;
-    transition: 1s cubic-bezier(0, 1.47, 0.58, 1);
-}
-
-.skillsContainer h2 {
-    margin-bottom: 60px;
-    font-size: 2rem;
-    color: #ffeb3b;
-}
-
-.skillWrapper {
-    display: flex;
-    width: 105px;
-    height: 105px;
-    border-radius: 50%;
-    flex-direction: row;
-
-    background: linear-gradient(to right, #14ffe9, #ffeb3b, #ff00e0);
-}
-
-
-.skillWrapper>* {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: black;
-    padding: 10px;
-
-    cursor: pointer;
-}
-
-.skillWrapper>*:hover img {
-    max-width: 80%;
-}
-
-.skillsContainer>* img {
-
-    max-width: 70%;
-    height: auto;
-    transition: 0.2s cubic-bezier(0, 1.47, 0.58, 1);
-}
-
-.skillsContainer>* img[alt="Flutter"] {
-    max-width: 50%;
-    transition: 0.2s cubic-bezier(0, 1.47, 0.58, 1);
-}
-
-.skillsContainer>* img[alt='Flutter']:hover {
-    max-width: 55%;
-}
-
-
-.skillsContainer>* img[alt='JavaScript'] {
-    transition: 0.2s cubic-bezier(0, 1.47, 0.58, 1);
-    max-width: 135%;
-}
-
-.skillsContainer>* img[alt='JavaScript']:hover {
-    max-width: 160%;
-}
-
-
-
-@media screen and (max-width:600px) {
-
-
-    .skillWrapper {
-
-        width: 85px;
-        height: 85px;
-    }
-
-
-    .skillWrapper>* {
-        width: 80px;
-        height: 80px;
-
-    }
-
-
-}

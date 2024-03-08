@@ -1,0 +1,155 @@
+.SkillsContainer{
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: black;
+     min-height: 100vh;
+       margin-top: 5px;
+       text-align: center;
+
+}
+
+.SkillsContainer h2 {
+  width: 100%;
+  font-size: 2.5rem;
+  color:  #ffeb3b;
+}
+
+.skillsSection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 35%;
+    height:400px;
+    background-color:  blueviolet;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.skillsSection h3{
+    width: 100%;
+    height: 10%;
+}
+
+.skills-div{
+    width: 100%;
+    height: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: start;
+    vertical-align: middle;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+
+.skillsContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    transition: 1s cubic-bezier(0, 1.47, 0.58, 1);
+}
+
+.skillsContainer h2 {
+    margin-bottom: 60px;
+    font-size: 2rem;
+    color: #ffeb3b;
+}
+.skillContainer img{
+
+    width: 80%;
+    height: auto;
+}
+
+.skillContainer h3{
+    width: 100%;
+    font-size: 1.5rem;
+}
+
+.skillWrapper {
+    display: flex;
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    flex-direction: column;
+    background: linear-gradient(to right, #14ffe9, #ffeb3b, #ff00e0);
+}
+
+
+.skillWrapper>* {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+
+    cursor: pointer;
+}
+
+.skillWrapper>*:hover img {
+    max-width: 80%;
+}
+
+.skillsContainer>* img {
+
+    max-width: 70%;
+    height: auto;
+    transition: 0.2s cubic-bezier(0, 1.47, 0.58, 1);
+}
+
+.skillsContainer>* img[alt="Flutter"] {
+    max-width: 50%;
+    transition: 0.2s cubic-bezier(0, 1.47, 0.58, 1);
+}
+
+.skillsContainer>* img[alt='Flutter']:hover {
+    max-width: 55%;
+}
+
+
+.skillsContainer>* img[alt='JavaScript'] {
+    transition: 0.2s cubic-bezier(0, 1.47, 0.58, 1);
+    max-width: 135%;
+}
+
+.skillsContainer>* img[alt='JavaScript']:hover {
+    max-width: 160%;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+
+    .skillWrapper {
+
+        width: 85px;
+        height: 85px;
+    }
+
+
+    .skillWrapper>* {
+        width: 80px;
+        height: 80px;
+
+    }
+
+
+}

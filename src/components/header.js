@@ -36,12 +36,14 @@ function Header() {
             <ul>
                 <li><AnchorLink href='#section-aboutMe'>About Me</AnchorLink></li>
                 <li><AnchorLink href='#section-portfolio'>Portfolio</AnchorLink></li>
+                 <li><AnchorLink href='#section-skills'>Skills</AnchorLink></li>
                 <li><AnchorLink href='#section-contactMe'>Contact ME</AnchorLink></li>
             </ul>
             <div id='mobileMenu'>
                 <ul>
                     <li><AnchorLink href='#section-aboutMe'>About Me</AnchorLink></li>
                     <li><AnchorLink href='#section-portfolio'>Portfolio</AnchorLink></li>
+                     <li><AnchorLink href='#section-skills'>Skills</AnchorLink></li>
                     <li><AnchorLink href='#section-contactMe'>Contact ME</AnchorLink></li>
                 </ul>
 

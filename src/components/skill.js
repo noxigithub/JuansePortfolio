@@ -3,9 +3,6 @@ import React from 'react';
 
 function Skill(props) {
 
-
-
-
     return (
         <div className='skillWrapper' onClick={ props.onClick }>
             <div className='skillContainer'>
