@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/JuansePortfolio/static/css/main.fa8883cb.css",
-    "main.js": "/JuansePortfolio/static/js/main.4ef93aab.js",
+    "main.css": "/JuansePortfolio/static/css/main.9a32a4db.css",
+    "main.js": "/JuansePortfolio/static/js/main.7454cf5c.js",
     "static/media/booksStore.png": "/JuansePortfolio/static/media/booksStore.87710f3cf149811abccd.png",
     "static/media/casahotel.png": "/JuansePortfolio/static/media/casahotel.b1a75ce7421af8a849d9.png",
     "static/media/coffeShop.png": "/JuansePortfolio/static/media/coffeShop.a1a27c56bb40d76e8693.png",
@@ -9,16 +9,21 @@
     "static/media/practidocs.png": "/JuansePortfolio/static/media/practidocs.ad092558bf4b0e75e5bd.png",
     "static/media/2love1.png": "/JuansePortfolio/static/media/2love1.2a5399acc86c4541afba.png",
     "static/media/laravel.png": "/JuansePortfolio/static/media/laravel.2ebf4db3cc9f1b431979.png",
+    "static/media/gmailLogo.png": "/JuansePortfolio/static/media/gmailLogo.432a39b542c402c03918.png",
+    "static/media/wpplogo.png": "/JuansePortfolio/static/media/wpplogo.12a302fe7b144fb2f4e9.png",
+    "static/media/visual.png": "/JuansePortfolio/static/media/visual.39e6bdf30d56e03c621b.png",
+    "static/media/androidstudio.png": "/JuansePortfolio/static/media/androidstudio.905dd6e7b94dee1e5794.png",
     "static/media/flutter.png": "/JuansePortfolio/static/media/flutter.294a953425109a8f1aad.png",
+    "static/media/python.png": "/JuansePortfolio/static/media/python.6d5624e6aaeaa3e2d6d6.png",
     "static/media/javascript.png": "/JuansePortfolio/static/media/javascript.7f8751632b42a9932c15.png",
     "static/media/nextjs.png": "/JuansePortfolio/static/media/nextjs.e31339ef8beff1e4fab0.png",
     "static/media/dart.png": "/JuansePortfolio/static/media/dart.7bc9e9ce106d9fe25df3.png",
     "index.html": "/JuansePortfolio/index.html",
-    "main.fa8883cb.css.map": "/JuansePortfolio/static/css/main.fa8883cb.css.map",
-    "main.4ef93aab.js.map": "/JuansePortfolio/static/js/main.4ef93aab.js.map"
+    "main.9a32a4db.css.map": "/JuansePortfolio/static/css/main.9a32a4db.css.map",
+    "main.7454cf5c.js.map": "/JuansePortfolio/static/js/main.7454cf5c.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa8883cb.css",
-    "static/js/main.4ef93aab.js"
+    "static/css/main.9a32a4db.css",
+    "static/js/main.7454cf5c.js"
   ]
 }
