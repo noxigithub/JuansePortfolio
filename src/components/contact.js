@@ -1,5 +1,7 @@
 import React from 'react';
 import '../css/contactStyle.css';
+import wppLogo from '../images/wpplogo.png';
+import gmailLogo from '../images/gmailLogo.png';
 
 
 
@@ -8,18 +10,13 @@ function Contact() {
     return (
         <div id="section-contactMe" className='ContactMe'>
              <h2>Contáctame</h2>
-            <div className='contactForm-container'>
-                
-
-                <input type="email" placeholder='E-mail'/>
-
-                <input type="text" placeholder='Razón' />
-                <textarea id="w3review" name="w3review" rows="4" placeholder='Mensaje'>
-                  
-                </textarea>
-
-                <button><a href=''>Contactar</a></button>
-
+             <div className='contactOptions'>
+                <div className='contactOptionContainer'>
+                    <a target='_blank' href='https://wa.link/ge4g3a'><img src={wppLogo}></img></a>
+                </div>
+                <div className='contactOptionContainer'>
+                     < a target='_blank' href="mailto:juanc7795@gmail.com"><img src={gmailLogo}></img></a>
+                </div>
             </div>
 
             <div className='footer'>

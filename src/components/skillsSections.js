@@ -16,6 +16,9 @@ import firebaseLogo from '../images/firebase.png';
 import dartLogo from '../images/dart.png';
 import larvelLogo from '../images/laravel.png';
 import nextjsLogo from '../images/nextjs.png';
+import visualStudioCode from '../images/visual.png';
+import androidStudio from '../images/androidstudio.png';
+import python from '../images/python.png';
 
 function Skills() {
     const { skills, setSkills } = useContext(SkillContext)
@@ -144,6 +147,16 @@ function Skills() {
                         skillName="GIT"
                         img={gitLogo}
                     />
+                      <Skill
+                        onClick={skillClicked}
+                        skillName="Visual Studio Code"
+                        img={visualStudioCode}
+                    />
+                      <Skill
+                        onClick={skillClicked}
+                        skillName="Android Studio"
+                        img={androidStudio}
+                    />
                 </div>
             </div>
             <div className='skillsSection front-end'>
@@ -159,6 +172,12 @@ function Skills() {
                         onClick={skillClicked}
                         skillName="Laravel"
                         img={larvelLogo}
+                    />
+
+                     <Skill
+                        onClick={skillClicked}
+                        skillName="Python"
+                        img={python}
                     />
 
                 </div>
